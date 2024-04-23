@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Company Name Generator</h1>
+        <div class="input-container">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="Enter First Name">
+        </div>
+        <div class="input-container">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Enter Last Name">
+        </div>
+        <button onclick="generateName()">Generate</button>
+        <p id="companyName"></p>
+        <button id="notSatisfiedBtn" style="display:none;" onclick="notSatisfied()">Not Satisfied</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
